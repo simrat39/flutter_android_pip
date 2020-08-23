@@ -1,6 +1,5 @@
 package com.bostrot.flutterandroidpip;
 
-import android.annotation.TargetApi;
 import android.os.Build;
 
 import io.flutter.plugin.common.MethodCall;

@@ -4,6 +4,9 @@ version: 0.0.1
 author:
 homepage:
 
+environment:
+  sdk: ">=2.9.0 <3.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
@@ -16,7 +19,7 @@ flutter:
   plugin:
     platforms:
       android:
-        androidPackage: com.bostrot.flutterandroidpip
+        package: com.bostrot.flutterandroidpip
         pluginClass: FlutterAndroidPipPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
